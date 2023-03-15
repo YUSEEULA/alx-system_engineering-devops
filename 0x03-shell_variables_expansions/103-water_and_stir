@@ -1,2 +1,2 @@
 #!/bin/bash
-printf
+printf $((“WATER+STIR”)) | tr water WATER | tr stir STIR
