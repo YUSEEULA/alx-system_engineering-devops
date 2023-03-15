@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((“WATER+STIR”))
+tr 'water' 'WATER' | tr 'stir' 'STIR' |  echo $((“WATER+STIR”))
